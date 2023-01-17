@@ -21,3 +21,7 @@ Repo for me to use for webpack
 ## Babel
 
 `npm i -D babel-loader @babel/core @babel/preset-env`
+
+## Axios
+
+`npm i axios`

@@ -1,5 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
   mode: "development",
@@ -30,7 +32,7 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.js%/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -47,9 +49,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Webpack",
+      title: "Webpack App",
       filename: "index.html",
       template: "src/template.html",
     }),
+    new BundleAnalyzerPlugin(),
   ],
 };
