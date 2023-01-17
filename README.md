@@ -25,3 +25,7 @@ Repo for me to use for webpack
 ## Axios
 
 `npm i axios`
+
+## Webpack Bundle Analyzer
+
+`npm i -D webpack-bundle-analyzer`
