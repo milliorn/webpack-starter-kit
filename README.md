@@ -9,3 +9,11 @@ Repo for me to use for webpack
 ## Build
 
 `npm run build`
+
+## Loaders
+
+`npm i -D sass style-loader css-loader sass-loader`
+
+## HTML Webpack Plugin
+
+`npm i -D html-webpack-plugin`
