@@ -4,7 +4,7 @@
   "description": "Repo for me to use for webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
