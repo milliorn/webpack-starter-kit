@@ -17,3 +17,7 @@ Repo for me to use for webpack
 ## HTML Webpack Plugin
 
 `npm i -D html-webpack-plugin`
+
+## Babel
+
+`npm i -D babel-loader @babel/core @babel/preset-env`
